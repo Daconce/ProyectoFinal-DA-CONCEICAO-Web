@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+main h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+}
+main h3 {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+main ul {
+  color: rgba(255, 255, 255, 0.85);
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.productos h2 {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 165, 0);
+  font-size: 20px;
+}
+
+footer p {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+}
+footer .footer-links a {
+  color: rgb(255, 165, 0);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.sucursales h1 {
+  font-size: 28px;
+}
+
+.card h2 {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+}
+.card ul li {
+  font-size: 14px;
+}
+
+.nosotros p {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+form label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+form input[type=submit] {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(16, 16, 16);
+}
+
+nav {
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  opacity: 0.92;
+  filter: alpha(opacity=50);
+}
+nav img {
+  height: 56px;
+  margin-left: 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  margin-right: 20px;
+}
+nav ul li a {
+  transition: 0.8s;
+}
+nav ul li a:hover {
+  color: rgb(255, 165, 0);
+}
+
+main {
+  margin-top: 95px;
+  min-height: 75vh;
+}
+main h1 {
+  text-align: center;
+  margin: 20px;
+}
+main h3 {
+  text-align: center;
+}
+main ul {
+  margin: auto 25px;
+}
+
+.productos {
+  margin-top: 120px;
+  height: auto;
+}
+.productos ul li {
+  text-align: center;
+}
+.productos h2 {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 6px;
+}
+
+footer {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer .footer-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer .footer-links a {
+  text-decoration: none;
+  margin: 10px 15px;
+}
+footer p {
+  margin-right: 12px;
+}
+footer a {
+  text-decoration: none;
+  margin-right: 5px;
+}
+footer a img {
+  height: 30px;
+}
+
+.sucursales {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sucursales h1 {
+  width: 100%;
+}
+
+.card {
+  height: auto;
+  width: 210px;
+  margin: 12px;
+  padding: 12px;
+  border: 1px solid rgb(255, 165, 0);
+  border-radius: 5px;
+  text-align: left;
+}
+.card h2 {
+  margin: auto 25px;
+}
+
+.nosotros {
+  margin: 120px 30px auto;
+}
+.nosotros img {
+  height: 600px;
+  display: block;
+  margin: 25px auto;
+}
+.nosotros p {
+  text-align: center;
+}
+
+.form-container {
+  margin-top: 120px;
+}
+
+form {
+  width: 600px;
+  padding: 25px;
+  margin: auto;
+  background-color: rgb(0, 0, 0);
+}
+form label {
+  width: 82px;
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 18px;
+  text-align: right;
+}
+form input[type=submit] {
+  width: 100%;
+  padding: 8px 16px;
+  display: block;
+  background-color: rgb(255, 165, 0);
+  margin-top: 6px;
+}
+form input[type=submit]:hover {
+  cursor: pointer;
+  background-color: rgb(255, 187, 62);
+}
+form textarea {
+  width: 100%;
+  height: 200px;
+  background-color: #f6f6f6;
+  margin-top: 25px;
+  resize: none;
+  display: block;
+}
+
+.fot-a {
+  grid-area: fotoA;
+}
+
+.fot-b {
+  grid-area: fotoB;
+}
+
+.fot-c {
+  grid-area: fotoC;
+}
+
+.fot-d {
+  grid-area: fotoD;
+}
+
+.fot-e {
+  grid-area: fotoE;
+}
+
+.fot-f {
+  grid-area: fotoF;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 60vh);
+  grid-template-areas: "fotoA" "fotoB" "fotoC" "fotoD" "fotoE" "fotoF";
+}
+.galeria img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: 0.2ms;
+}
+.galeria img:hover {
+  -webkit-filter: brightness(1.2);
+  filter: brightness(1.2);
+}
+
+.hamburger-icon {
+  position: fixed;
+  top: 2rem;
+  right: 0.1rem;
+  display: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  z-index: 4;
+}
+.hamburger-icon div {
+  width: 24px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+@media (min-width: 768px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 40vh);
+    grid-template-areas: "fotoA fotoB" "fotoC fotoD" "fotoE fotoF";
+  }
+}
+@media (min-width: 1200px) {
+  .galeria {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 40vh);
+    grid-template-areas: "fotoA fotoB fotoC" "fotoD fotoE fotoF";
+  }
+}
+@media (max-width: 800px) {
+  .hamburger-icon {
+    display: block;
+  }
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li {
+    font-size: 32px;
+    margin: 8px auto;
+  }
+  .navbar {
+    display: none;
+    font-size: 36px;
+    margin-top: 16px;
+  }
+  .nosotros img {
+    height: auto;
+    width: 100%;
+    display: block;
+    margin: 25px auto;
+  }
+  form {
+    width: 300px;
+  }
+}
+@media (max-width: 430px) {
+  nav img {
+    align-self: flex-start;
+  }
+  ul li {
+    border-bottom-style: solid;
+    border-bottom-color: rgba(255, 187, 62, 0.3);
+    border-width: thin;
+    border-radius: 8px;
+  }
+}
+@media (max-width: 360px) {
+  nav img {
+    height: auto;
+    width: 80%;
+  }
+  .galeria {
+    grid-template-rows: repeat(6, 40vh);
+  }
+  footer .footer-links {
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  footer .footer-links a {
+    margin: 0px auto;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

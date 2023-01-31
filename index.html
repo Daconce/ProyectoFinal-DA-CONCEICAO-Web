@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luis da Conceicao">
+    <meta name="description"
+        content="Pedí delivery de empanadas tucumanas, locro, lentejas, humitas, tamales y pizzas en la Ciudad de Buenos Aires, Canning y Monte Grande." />
+    <meta name="keywords" content="empanadas, locro, lentejas, humitas, tamales, pizza, delivery" />
+    <meta name="robots" content="index, follow" />
+    <title>Rincón Norteño
+        - Empanadas tucumanas</title>
+    <link rel="shortcut icon" href="./public/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <nav>
+        <img src="./public/logo_rincon_norteno.webp" alt="logo" />
+        <ul class="navbar" id="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="./pages/productos.html">Productos</a></li>
+            <li><a href="./pages/sucursales.html">Sucursales</a></li>
+            <li><a href="./pages/nosotros.html">Nosotros</a></li>
+            <li><a href="./pages/contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="hamburger-icon" onclick="showMenu()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    <main>
+        <video width="100%" autoplay muted loop playsinline>
+            <source src="./public/video_producto.mp4" type="video/mp4">
+        </video>
+        <h1>Cocina auténtica de nuestro país.</h1>
+        <section class="galeria">
+            <img class="fot-a" src="./public/empanadas2.webp" alt="empanadas">
+            <img class="fot-b" src="./public/empanadas3.webp" alt="empanadas">
+            <img class="fot-c" src="./public/pizza.webp" alt="pizza">
+            <img class="fot-d" src="./public/lentejas.webp" alt="lentejas">
+            <img class="fot-e" src="./public/humita.webp" alt="humita">
+            <img class="fot-f" src="./public/locro.webp" alt="locro">
+        </section>
+    </main>
+    <footer>
+        <section class="footer-social">
+            <p>Rincón Norteño 2022</p>
+            <a href="https://www.facebook.com/rinconnorteno.oficial" target="_blank" rel="noopener noreferrer">
+                <img src="./public/facebook-log.svg" alt="link facebook" height="32px" width="32px" />
+            </a>
+            <a href="https://www.instagram.com/rinconorteno/" target="_blank" rel="noopener noreferrer">
+                <img src="./public/instagram-logo.svg" alt="link instagram" height="32px" width="32px">
+            </a>
+        </section>
+        <section class="footer-links">
+            <a href="./pages/sucursales.html">Sucursales</a>
+            <a href="./pages/contacto.html">Suscribite</a>
+            <a href="./404.html">Políticas de privacidad</a>
+        </section>
+        <section>
+            <a href="./index.html">
+                <img src="./public/favicon.png" alt="logo rincon norteño">
+            </a>
+        </section>
+    </footer>
+
+    <script>
+        function showMenu() {
+            var element = document.getElementById("navbar");
+            if (element.className === "navbar") {
+                element.className += "responsive";
+            } else {
+                element.className = "navbar";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

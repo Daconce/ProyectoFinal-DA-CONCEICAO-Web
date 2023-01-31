@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luis da Conceicao">
+    <meta name="description"
+        content="Pedí delivery de empanadas tucumanas, locro, lentejas, humitas, tamales y pizzas en la Ciudad de Buenos Aires, Canning y Monte Grande." />
+    <meta name="keywords" content="empanadas, locro, lentejas, humitas, tamales, pizza, delivery" />
+    <meta name="robots" content="index, follow" />
+    <title>Rincón Norteño - Nosotros</title>
+    <link rel="shortcut icon" href="../public/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <nav>
+        <a href="../index.html">
+            <img src="../public/logo_rincon_norteno.webp" alt="logo" />
+        </a>
+        <ul class="navbar" id="navbar">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./productos.html">Productos</a></li>
+            <li><a href="./sucursales.html">Sucursales</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="hamburger-icon" onclick="showMenu()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    <main>
+        <section class="nosotros">
+            <h1>Nosotros</h1>
+            <p>Desde nuestros inicios nos direccionamos en la búsqueda de la recuperación del sabor de la cocina
+                auténtica, artesanal y originaria del norte de nuestro país. En la actualidad somos reconocidos por
+                nuestras empanadas que, por su delicioso sabor y considerable tamaño, hoy nos diferencian y posicionan
+                en este mercado.</p>
+            <img src="../public/sucursal.webp" alt="sucursal">
+        </section>
+
+    </main>
+    <footer>
+        <section class="footer-social">
+            <p>Rincón Norteño 2022</p>
+            <a href="https://www.facebook.com/rinconnorteno.oficial" target="_blank" rel="noopener noreferrer">
+                <img src="../public/facebook-log.svg" alt="link facebook" height="32px" width="32px" />
+            </a>
+            <a href="https://www.instagram.com/rinconorteno/" target="_blank" rel="noopener noreferrer">
+                <img src="../public/instagram-logo.svg" alt="link instagram" height="32px" width="32px">
+            </a>
+        </section>
+        <section class="footer-links">
+            <a href="../pages/sucursales.html">Sucursales</a>
+            <a href="../pages/contacto.html">Suscribite</a>
+            <a href="../404.html">Políticas de privacidad</a>
+        </section>
+        <section>
+            <a href="../index.html">
+                <img src="../public/favicon.png" alt="logo rincon norteño">
+            </a>
+        </section>
+        <script>
+            function showMenu() {
+                var element = document.getElementById("navbar");
+                if (element.className === "navbar") {
+                    element.className += "responsive";
+                } else {
+                    element.className = "navbar";
+                }
+            }
+        </script>
+</body>
+
+</html>

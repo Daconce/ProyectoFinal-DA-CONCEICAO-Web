@@ -1,0 +1,28 @@
+{
+  "name": "preentrega3-da-conceicao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "+",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daconce/PreEntrega3-DA_CONCEICAO.git"
+  },
+  "author": "LUIS DA CONCEICAO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daconce/PreEntrega3-DA_CONCEICAO/issues"
+  },
+  "homepage": "https://github.com/Daconce/PreEntrega3-DA_CONCEICAO#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}

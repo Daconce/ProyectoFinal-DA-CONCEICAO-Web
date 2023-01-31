@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+nav {
+  ul {
+    li {
+      a {
+        color: $primaryColor;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+      }
+    }
+  }
+}
+
+main {
+  h1 {
+    color: $primaryColor;
+    font-family: "Montserrat", sans-serif;
+  }
+  h3 {
+    color: $primaryColor;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  ul {
+    color: rgba(255, 255, 255, 0.85);
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+.productos {
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    color: $secondaryColor;
+    font-size: 20px;
+  }
+}
+
+footer {
+  p {
+    color: $primaryColor;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .footer-links {
+    a {
+      color: $secondaryColor;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+    }
+  }
+}
+
+.sucursales {
+  h1 {
+    font-size: 28px;
+  }
+}
+
+.card {
+  h2 {
+    color: $primaryColor;
+    font-family: "Montserrat", sans-serif;
+  }
+  ul {
+    li {
+      font-size: 14px;
+    }
+  }
+}
+
+.nosotros {
+  p {
+    color: $primaryColor;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+}
+
+form {
+  label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: $primaryColor;
+  }
+  input[type="submit"] {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+}
