@@ -5,7 +5,7 @@ const mostrarLista = async () => {
   let lista = document.getElementById("listaEmpanadas");
   lista.innerHTML = "";
 
-  const response = await fetch("/data.json");
+  const response = await fetch("../data/data.json");
   const empanadas = await response.json();
 
   empanadas.forEach((empanada) => {
